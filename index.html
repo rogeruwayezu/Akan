@@ -35,7 +35,15 @@
         </div>           
             </div>
         <script>
-            
+            function setName() {
+        var birthday = document.getElementById('birthday').value;
+
+        var cc = parseInt(birthday.split("-")[0].substr(0,2));
+        var yy = parseInt(birthday.split("-")[0].substr(2));
+        var mm = parseInt(birthday.split("-")[1]);
+        var day = parseInt(birthday.split("-")[2]);  
+
+            }
         </script>
 </body>
 </html>
