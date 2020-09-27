@@ -1,0 +1,16 @@
+body{
+    background-color: #fff;
+}
+.container{
+    padding:20px;
+    box-shadow: 3px 3px 5px #111;
+    margin: 6% auto 0px auto;
+    display: table;
+    background-color: #eef;
+
+
+}
+.container p{
+    width:90%;
+    margin: 0px auto;
+}
