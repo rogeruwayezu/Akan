@@ -6,6 +6,30 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
+<div class="container">
+           
+            <h1>Akan Names Finder</h1>
+            <p>
+                What is Akan Name ?<br> In Ghana children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+                <br>This application will help you to know what your akan name would be. 
+                <br> what you have to do is to enter your birthday on the form below.
+            </p>
+            <br>
+            <form>
+                <label for="birthday">Enter your Birthday</label><br>
+                <input type="date" class="form-control" id="birthday"><br><br>
 
+                <label for="male">Gender</label>
+                <input type="radio" name="gender" value="male" id="male" required/>male 
+                
+                <input type="radio" name="gender" value="female" id="female" required/>female <br><br>
+                
+               <center> <input type="submit" onclick="setName()"  value="Check" class="button"> </center><br>
+               
+            </form>
+            <h2><span id="output"> </span>  <span id="dayborn"> &nbsp;</span></h2>
+                    
+                        
+            </div>
 </body>
 </html>
